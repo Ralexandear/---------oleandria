@@ -1,0 +1,116 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  min-width: 350px;
+}
+.dark-bg {
+    background-color: #343a40;
+    color: white;
+}
+.light-bg {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.rounded-section {
+    border-radius: 30px 30px 0 0;
+    padding: 50px 0;
+}
+.navbar {
+    z-index: 999;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+.footer {
+    padding: 20px 0;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.card {
+    min-height: 250px;
+    border-radius: 10%
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+
+
+/* .welcome__image { */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* background-image: url("/images/sunflower.webp");
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    min-height: 600px;
+    width: 100%;
+    z-index: 2; Уводим фон под контент */
+/* } */
+
+.welcome__image {
+  width: 100%;
+}
+
+/* Анимация для текста в основном блоке */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Увеличиваем первый блок */
+.first-block {
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание контента */
+    justify-content: center; /* Горизонтальное выравнивание контента */
+    padding-top: 95.2px!important;
+    /* position: fixed; */
+}
+
+#oleandria-logo {
+  width: 80px; /* До md */
+}
+
+.block-header {
+  padding-top: 60px!important;
+  margin-bottom: 60px!important;
+}
+
+@media (min-width: 768px) { /* md начинается с 768px */
+  #oleandria-logo {
+    width: 120px;
+  }
+
+  .first-block {
+    padding-top: 121.8px!important;
+  }
+
+  .rounded-section {
+      border-radius: 50px 50px 0 0;
+      padding: 50px 0;
+  }
+}
