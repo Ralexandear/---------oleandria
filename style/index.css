@@ -8,7 +8,7 @@ body {
     background-color: #343a40;
     color: white;
 }
-.light-bg {
+body, .light-bg {
     background-color: #f8f9fa;
     color: #343a40;
 }
@@ -98,6 +98,7 @@ body {
 .block-header {
   padding-top: 60px!important;
   margin-bottom: 60px!important;
+  font-size: 42px;
 }
 
 @media (min-width: 768px) { /* md начинается с 768px */
