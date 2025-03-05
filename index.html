@@ -100,7 +100,7 @@
 
     <!-- Второй блок -->
     <section id="about-us" class="dark-bg">
-        <div class="rounded light-bg">
+        <div class="rounded-block light-bg">
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-5">
@@ -123,38 +123,73 @@
 
     <!-- Третий блок -->
     <section id="services" >
-        <div class="container">
+        <div class="container services__container">
             <h2 class="text-start mb-5 block-header" data-aos="fade-up">Services</h2>
-            <div class="row">
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Google Sheets</h5>
-                            <p class="card-text">Setup and automation</p>
+            <div class="row gap-3 gap-lg-0 justify-content-center m-0" >
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/Google_Sheets_2020_Logo.svg" alt="google_sheets_logo">
+                            <h5 class="card-title text-center m-0">Google Sheets</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Telegram Bots</h5>
-                            <p class="card-text">Development and integration</p>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/Telegram_logo_icon.svg" alt="telegram_logo">
+                            <h5 class="card-title text-center m-0">Telegram Bots</h5>
+                            <!-- <p class="card-text">Development and integration</p> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Server-side Application Development</h5>
-                            <p class="card-text">Creating tailored solutions for your needs</p>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/API.webp" alt="">
+                            <h5 class="card-title text-center m-0">API Integration</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Web Design</h5>
-                            <p class="card-text">Creation of modern, responsive websites</p>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/Ubuntu-logo-no-wordmark-solid-o-2022.svg" alt="ubuntu_logo">
+                            <h5 class="card-title text-center m-0">Hosting and Server Administration</h5>
+                            <!-- <p class="card-text">Creation of modern, responsive websites</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/Figma-logo.svg" alt="figma_logo">
+                            <h5 class="card-title text-center m-0">Web Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/Adobe_Photoshop_CC_icon.svg" alt="photoshop_logo">
+                            <h5 class="card-title text-center m-0">Graphic Design </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/HTML5_logo_and_wordmark.svg" alt="html_logo">
+                            <h5 class="card-title text-center m-0">Frontend Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-3 p-0 p-0 p-lg-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body justify-content-evenly">
+                            <img src="/icons/Typescript_logo_2020.svg" alt="typescript_logo">
+                            <h5 class="card-title text-center m-0">Backend Development</h5>
+                            <!-- <p class="card-text">Creating tailored solutions for your needs</p> -->
                         </div>
                     </div>
                 </div>
@@ -166,7 +201,7 @@
         <div class="container">
             <h2 class="text-start mb-5 block-header" data-aos="fade-up">Frequently Asked Questions</h2>
             <div class="accordion " id="accordionFlushExample">
-                <div class="accordion-item rounded">
+                <div class="accordion-item rounded-block">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                       Which technologies do you use?
@@ -252,9 +287,9 @@
 
     
 
-    <section id="contacts" class="light-bg text-center py-5">
+    <section id="contacts" class="light-bg text-center">
         <div class="container">
-            <h2 class="mb-5" data-aos="fade-up">Contact us</h2>
+            <h2 class="mb-5 block-header text-start" data-aos="fade-up">Contact us</h2>
             <div class="row">
               <div class="col-12 col-md-6 text-start">
                 <p data-aos="fade-up" data-aos-delay="100">21137 Novi Sad, Kornelija Stankovića 39, apt.17</p>

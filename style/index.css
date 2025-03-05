@@ -12,8 +12,8 @@ body, .light-bg {
     background-color: #f8f9fa;
     color: #343a40;
 }
-.rounded {
-    border-radius: 30px 30px 0 0;
+.rounded-block {
+    border-radius: 25% 30px 0 0;
     /* padding: 50px 0; */
 }
 .navbar {
@@ -35,7 +35,9 @@ body, .light-bg {
 }
 
 .card {
-    min-height: 250px;
+    height: 200px;
+    width: auto;
+    min-width: 143px;
     border-radius: 10%
 }
 
@@ -43,6 +45,10 @@ body, .light-bg {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.card-body h5 {
+    font-size: 0.9rem;
 }
 
 .card-title {
@@ -96,22 +102,37 @@ body, .light-bg {
 }
 
 .block-header {
-  padding-top: 60px!important;
+  padding-top: 100px!important;
   margin-bottom: 60px!important;
   font-size: 42px;
 }
 
+.services__container .card-body img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
 @media (min-width: 768px) { /* md начинается с 768px */
-  #oleandria-logo {
-    width: 120px;
-  }
+    #oleandria-logo {
+        width: 120px;
+    }
 
-  .first-block {
-    padding-top: 121.8px!important;
-  }
+    .first-block {
+        padding-top: 121.8px!important;
+    }
 
-  .rounded-section {
-      border-radius: 50px 50px 0 0;
-      padding: 50px 0;
-  }
+    .rounded-block {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .card {
+        min-height: 250px;
+        width: auto;
+        border-radius: 10%
+    }
+
+    .card-body h5 {
+        font-size: 1.25rem;
+    }
 }
