@@ -135,4 +135,8 @@ body, .light-bg {
     .card-body h5 {
         font-size: 1.25rem;
     }
+
+    .services__container .card-body img {
+        height: 100px;
+    }
 }
